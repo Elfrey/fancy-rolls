@@ -1,0 +1,26 @@
+.chat-message .message-header .flavor-text.flavor-text-fr,
+.chat-message .message-header .whisper-to.flavor-text-fr {
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+  font-family: var(--font-sans-condensed);
+  font-weight: 500;
+  font-size: var(--text-base);
+}
+.chat-message .message-header .flavor-text.flavor-text-fr img,
+.chat-message .message-header .whisper-to.flavor-text-fr img {
+  margin-right: 5px;
+}
+
+.fr-advantage-icon {
+  float: right;
+  border: none;
+  position: relative;
+  right: 5px;
+}
+.fr-advantage-icon.fr-advantage-icon--upgrade {
+  filter: brightness(0) saturate(100%) invert(24%) sepia(78%) saturate(2280%) hue-rotate(105deg) brightness(94%) contrast(104%);
+}
+.fr-advantage-icon.fr-advantage-icon--downgrade {
+  filter: brightness(0) saturate(100%) invert(12%) sepia(90%) saturate(6225%) hue-rotate(359deg) brightness(110%) contrast(109%);
+}
