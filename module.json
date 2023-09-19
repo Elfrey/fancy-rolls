@@ -1,48 +1,45 @@
 {
-    "id": "fancy-rolls",
-    "title": "Fancy Rolls",
-    "version": "0.1",
-    "compatibility": {
-      "minimum": "10",
-      "verified": "11",
-      "maximum": "11"
-    },
-    "authors": [
-      {
-        "name": "Elfrey",
-        "discord": "elfrey"
-      }
-    ],
-    "socket": true,
-    "esmodules": [
-      "module.js"
-    ],
-    "styles": [
-      "styles/styles.css"
-    ],
-    "languages": [
-      {
-        "lang": "en",
-        "name": "English",
-        "path": "languages/en.json",
-        "flags": {}
-      },
-      {
-        "lang": "ru",
-        "name": "Russian",
-        "path": "languages/ru.json",
-        "flags": {}
-      }
-    ],
-    "url": "https://github.com/Elfrey/fancy-rolls",
-    "manifest": "",
-    "bugs": "https://github.com/Elfrey/fancy-rolls/issues",
-    "relationships": {
-      "systems": [
-        {
-          "id": "dnd5e",
-          "type": "system"
-        }
-      ]
+  "id": "fancy-rolls",
+  "title": "Fancy Rolls",
+  "version": "0.1",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "11",
+    "maximum": "11"
+  },
+  "authors": [
+    {
+      "name": "Elfrey",
+      "discord": "elfrey"
     }
+  ],
+  "socket": true,
+  "esmodules": ["module.js"],
+  "styles": ["styles/styles.css"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json",
+      "flags": {}
+    },
+    {
+      "lang": "ru",
+      "name": "Russian",
+      "path": "languages/ru.json",
+      "flags": {}
+    }
+  ],
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
+  "bugs": "https://github.com/Elfrey/fancy-rolls/issues",
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system"
+      }
+    ]
   }
+}
