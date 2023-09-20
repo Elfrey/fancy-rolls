@@ -5,8 +5,6 @@ Hooks.on("renderChatMessage", (message, $html) => {
   const tokenImg = actor.prototypeToken.texture.src;
   const $img = $(`<img src="${tokenImg}" alt="${actor.name}" title="${actor.name}" width="36" height="36" />`);
   const $flavorText = $html.find(".flavor-text");
-  console.debug("formatMessages", formatMessages);
-  console.log("(message.flags.dnd5e.roll", message.flags.dnd5e.roll);
   if (formatMessages.includes(message.flags.dnd5e.roll.type)) {
     const replaceText = game.i18n.localize("cr.replaceText");
     $flavorText.addClass("flavor-text-fr");
