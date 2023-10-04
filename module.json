@@ -1,7 +1,7 @@
 {
   "id": "fancy-rolls",
   "title": "Fancy Rolls",
-  "version": "0.2",
+  "version": "0.0.2",
   "compatibility": {
     "minimum": "10",
     "verified": "11",
@@ -14,19 +14,19 @@
     }
   ],
   "socket": true,
-  "esmodules": ["scripts/module.js"],
+  "esmodules": ["module.js"],
   "styles": ["styles/styles.css"],
   "languages": [
     {
       "lang": "en",
       "name": "English",
-      "path": "language/en.json",
+      "path": "languages/en.json",
       "flags": {}
     },
     {
       "lang": "ru",
       "name": "Russian",
-      "path": "language/ru.json",
+      "path": "languages/ru.json",
       "flags": {}
     }
   ],

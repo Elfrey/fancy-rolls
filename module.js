@@ -1,6 +1,8 @@
 const formatMessages = ["ability", "save", "skill", "check"];
 Hooks.on("renderChatMessage", (message, $html) => {
   const speaker = message.speaker.actor;
+  if (actor == null)
+    return;
   const actor = game.actors.get(speaker);
   const tokenImg = actor.prototypeToken.texture.src;
   const $img = $(`<img src="${tokenImg}" alt="${actor.name}" title="${actor.name}" width="36" height="36" />`);
@@ -40,3 +42,4 @@ Hooks.on("renderChatMessage", (message, $html) => {
     }
   }
 });
+//# sourceMappingURL=module.js.map
